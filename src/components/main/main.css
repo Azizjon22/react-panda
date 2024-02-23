@@ -1,0 +1,42 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+
+.cards{
+    display: flex;
+   align-items: center;
+   text-align: center;
+   margin-top: 50px;
+}
+
+
+
+.card{
+    width: 360px;
+    height: 500px;
+    background-image: linear-gradient(to right, #06224e, #00243e, #002024, #001a0e, #0b1000);
+    border-radius: 15px;
+    color: white;
+}
+
+.card img{
+    width: 350px;
+    height: 350px;
+}
+
+.input-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inputi{
+   width: 500px;
+}
